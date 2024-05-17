@@ -5,34 +5,44 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Urban Haven Apartments</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="icon" href="">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header class="header">
-      <div class="header-title-logo">
-        <a href="#hero" class="header-logo-wrapper">
-          <div class="img-fluid">
-            <img class="icon" src="./assets/logo2.png" alt="icon">
-          </div>
-        </a>
-        <a href="" class="header-title"><h1>Urban Haven Apartments</h1></a>
-      </div>
+   <nav>
+    <!DOCTYPE html>
+<html lang="en">
 
-      <nav class="header-nav">
-        <ol class="header-nav-list">
-          <li><a href="#home" class="header-nav-link">Home</a></li>
-          <li><a href="#about" class="header-nav-link">About us</a></li>
-          <li><a href="#about" class="header-nav-link">Available spaces</a></li>
-          <li><a href="#contact" class="header-nav-link">Contact Us  </a></li>
-          <li><a href="#amenities" class="header-nav-link">Amenities</a></li>
-        </ol>
-      </nav>
-    </header>
-   
+<head>
 
+  <nav>
+    <input type="checkbox" id="nav-toggle">
+    <div class="logo">Urban Haven <strong>Apartments</strong></div>
+    <ul class="links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#spaces">Spaces</a></li>
+      <li><a href="#Amenities">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <label for="nav-toggle" class="icon-burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </label>
+  </nav>
 
-    <section class="about">
+ 
+<label for="nav-toggle" class="icon-burger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </label>
+
+   </nav>
+
+    <section class="about" id="about">
       <h1>About us</h1>
       <h2 style="font-weight: bold;">Urban Haven Apartments...</h2></p>
       <div class="about-info">
@@ -54,7 +64,7 @@
       </div>
       </section>
       <!--property list start-->
-      <section id="available-spaces">
+      <section id="available-spaces" id="available">
         <h2>Available Spaces/ Rooms</h2>
         
         <div class="space">
@@ -117,7 +127,7 @@
       <!--property list end-->
 
       <!--Amenities -->
-      <section class="us_section">
+      <section class="us_section" id="">
         <div class="container">
           <div class="haeding_conatainer">
             <h2>Why Rent with us</h2>
