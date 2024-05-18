@@ -5,6 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Urban Haven Apartments</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="icon" href="">
     <link rel="stylesheet" href="style.css">
@@ -18,12 +20,12 @@
 
   <nav>
     <input type="checkbox" id="nav-toggle">
-    <div class="logo">Urban Haven <strong> Apartments</strong></div>
+    <div class="logo" id="">Urban Haven <strong> Apartments</strong></div>
     <ul class="links">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="#spaces">Spaces</a></li>
-      <li><a href="#Amenities">Projects</a></li>
+      <li><a href="#available-spaces">Spaces</a></li>
+      <li><a href="#amenities">Amenities</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
     <label for="nav-toggle" class="icon-burger">
@@ -32,6 +34,7 @@
       <div class="line"></div>
     </label>
   </nav>
+
 
  
 <label for="nav-toggle" class="icon-burger">
@@ -64,8 +67,9 @@
       </div>
       </section>
       <!--property list start-->
-      <section id="available-spaces" id="available">
+      <section id="available-spaces">
         <h2>Available Spaces/ Rooms</h2>
+
         
         <div class="space">
             <img src="./assets/property-1.jpg" alt="Single Room">
@@ -87,7 +91,8 @@
             <img src="./assets/property-3.jpg" alt="Studio Apartment">
             <div class="details">
                 <h3>Studio Apartments</h3>
-                <p>Stylish and functional apartments featuring an open layout with a combined living, sleeping, and dining area, perfect for individuals or couples seeking a modern living experience @ Kshs.7000 per month.</p>
+                <p>Stylish and functional apartments featuring an open layout with a combined living, sleeping, and dining area, perfect for individuals or couples seeking a modern living experience
+                  <br>@Kshs.7000 per month.</p>
             </div>
         </div>
 
@@ -139,25 +144,22 @@
         <h1 class="amenities_header">Available Amenities and Services</h1>
         <hr>
         <div class="amenities_container">
-            <div class="amenity_item">
-                <div class="amenity_img">
-                    <img src="./assets/wifi.jpeg" alt="Free WiFi">
-                </div>
-                <h3>Free WiFi</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero maiores qui ipsam recusandae! Totam,
-                    aliquid. Aliquam itaque incidunt, dolor in nemo minus cupiditate. Beatae eum sint nihil possimus iste
-                    deserunt.
-                </p>
-            </div>
+        
+         <div class="amenity_item">
+          <div class="amenity_img">
+          <img src="./assets/wifi.jpeg" alt="wifi">
+      
+          </div>
+          <h3>Free Wfi</h3>
+          <p>Free wifi except for those living in single rooms</p>
+         </div>
 
             <div class="amenity_item">
                 <div class="amenity_img">
                     <img src="./assets/Swimming pool.jpeg" alt="Swimming Pool">
                 </div>
                 <h3>Swimming Pool</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero maiores qui ipsam recusandae! Totam,
-                    aliquid. Aliquam itaque incidunt, dolor in nemo minus cupiditate. Beatae eum sint nihil possimus iste
-                    deserunt.
+                <p>Swimming pool - free for everyone
                 </p>
             </div>
 
@@ -166,9 +168,7 @@
                     <img src="./assets/parking-png-transparent-png.png" alt="Free Parking">
                 </div>
                 <h3>Free Parking</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero maiores qui ipsam recusandae! Totam,
-                    aliquid. Aliquam itaque incidunt, dolor in nemo minus cupiditate. Beatae eum sint nihil possimus iste
-                    deserunt.
+                <p>Free parking except for those living in single rooms and bedsitters.
                 </p>
             </div>
 
@@ -177,9 +177,7 @@
                     <img src="./assets/gym.png" alt="Free Gym">
                 </div>
                 <h3>Free Gym</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero maiores qui ipsam recusandae! Totam,
-                    aliquid. Aliquam itaque incidunt, dolor in nemo minus cupiditate. Beatae eum sint nihil possimus iste
-                    deserunt.
+                <p>Free gym except for those living in single rooms and bedsitters.
                 </p>
             </div>
 
@@ -188,9 +186,7 @@
                     <img src="./assets/water.png" alt="Free Water">
                 </div>
                 <h3>Free Water</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero maiores qui ipsam recusandae! Totam,
-                    aliquid. Aliquam itaque incidunt, dolor in nemo minus cupiditate. Beatae eum sint nihil possimus iste
-                    deserunt.
+                <p>Free water for everyone.
                 </p>
             </div>
 
@@ -199,9 +195,7 @@
                     <img src="./assets/laundry.jpeg" alt="On-site Laundry">
                 </div>
                 <h3>On-site Laundry</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero maiores qui ipsam recusandae! Totam,
-                    aliquid. Aliquam itaque incidunt, dolor in nemo minus cupiditate. Beatae eum sint nihil possimus iste
-                    deserunt.
+                <p>On-site laundry @ Kshs.150 per basket.
                 </p>
             </div>
 
@@ -210,26 +204,66 @@
                     <img src="./assets/theatre.png" alt="Community Theatre">
                 </div>
                 <h3>Community Theatre</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero maiores qui ipsam recusandae! Totam,
-                    aliquid. Aliquam itaque incidunt, dolor in nemo minus cupiditate. Beatae eum sint nihil possimus iste
-                    deserunt.
+                <p>Community theatre - free for everyone
                 </p>
             </div>
 
-            <div class="amenity_item">
-                <div class="amenity_img">
-                    <img src="./assets/logo2.png" alt="Urban Haven Logo">
-                </div>
-                <h3>Urban Haven</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero maiores qui ipsam recusandae! Totam,
-                    aliquid. Aliquam itaque incidunt, dolor in nemo minus cupiditate. Beatae eum sint nihil possimus iste
-                    deserunt.
-                </p>
-            </div>
+       -->
         </div>
     </section>
+  <!--contact us -->
+  <section class="Contact" id="contact">
+    <div class="content">
+      <h2>Contact Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum soluta provident, eligendi sunt, consequatur corrupti esse hic itaque iste cupiditate vitae, assumenda delectus nulla amet fugit suscipit reprehenderit iusto tenetur.</p>
+    </div>
+    <div class="container">
+      <div class="containerInfo">
+        <div class="box">
+          <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="text">
+            <h3>Address</h3>
+            <p>4671 University Road,<br>Kiharu,<br>Muranga</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-phone"></i></div>
+          <div class="text">
+            <h3>Phone</h3>
+            <p>+254718764327</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-envelope"></i></div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>urhaven@apartments.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="contactForm">
+        <form method="post">
+          <h2>Send Message</h2>
+          <div class="inputBox">
+            <input type="text" name="fullName" required>
+            <span>Full Name</span>
+          </div>
+          <div class="inputBox">
+            <input type="email" name="email" required>
+            <span>Email</span>
+          </div>
+          <div class="inputBox">
+            <textarea name="message" required></textarea>
+            <span>Type your Message...</span>
+          </div>
+          <div class="inputBox">
+            <input type="submit" value="Send">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
   
-   
     
  
     
