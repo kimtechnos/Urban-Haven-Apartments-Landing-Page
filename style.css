@@ -37,15 +37,18 @@ nav{
   height: 100px;
   background-color:#1b572b ;
 }
-nav.logo{
+.logo{
   float: left;
   width: 40%;
   height: 100%;
   display: flex;
   align-items: center;
-  font: size 2.4rem;
+  font-size: 2rem;
   color: #ffffff;
 
+}
+.logo strong{
+  padding-left:1rem;
 }
 nav .links{
   display: flex;
@@ -212,7 +215,7 @@ button {
   outline: 0;
   padding: 1.5rem;
   margin: 2rem 1rem;
-  font-size: 1rem; /* Fixed the font-size syntax */
+  font-size: 1rem; 
   font-weight: bold;
   /* border: 2px solid #009688; */
   color: #160505;
@@ -233,8 +236,8 @@ button span.background {
   position: absolute;
   left: 0;
   bottom: 0;
-  z-index: 0; /* Ensure the span is behind the text */
-  transition: width 0.5s; /* Fixed the property name and added duration */
+  z-index: 0; 
+  transition: width 0.5s; 
 }
 
 button:hover span.background {
@@ -247,7 +250,7 @@ button:hover {
 
 button span.text {
   position: relative;
-  z-index: 1; /* Ensure the text is above the background span */
+  z-index: 1; 
 }
 body {
   font-family: Arial, sans-serif;
@@ -329,5 +332,70 @@ body {
 
 .space p {
   margin: 0;
+  color: #666;
+}
+
+/* amenities  section*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.amenities {
+  padding: 40px;
+  background-color: #ffffff;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.amenities_header {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.amenities hr {
+  border: 1px solid #eee;
+  margin-bottom: 40px;
+}
+
+.amenities_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.amenity_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.amenity_img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.amenity_item h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.amenity_item p {
   color: #666;
 }
